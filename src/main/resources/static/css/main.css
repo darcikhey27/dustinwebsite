@@ -1,34 +1,35 @@
 /******** Navbar ********/
 
-#menu-header {
-    background: #29C785;
-    /*background: -webkit-linear-gradient(to right, #40AAF2, #52D291);*/
-    /*background: linear-gradient(to right, #40AAF2, #52D291);*/
-    text-align: center;
-}
+/*#menu-header {*/
+/*    background: #29C785;*/
+/*    !*background: -webkit-linear-gradient(to right, #40AAF2, #52D291);*!*/
+/*    !*background: linear-gradient(to right, #40AAF2, #52D291);*!*/
+/*    text-align: center;*/
+/*}*/
 
 #logo {
-    width: 350px;
-    padding: 1.5em;
+    width: 38px;
+    height: 37px;
+    /*padding: 1.5em;*/
 }
 
-#menu .menu-btn {
-    display: none;
-}
+/*#menu .menu-btn {*/
+/*    display: none;*/
+/*}*/
 
-#menu-list {
-    list-style: none;
-    padding: 0em;
-    text-align: center;
-}
+/*#menu-list {*/
+/*    list-style: none;*/
+/*    padding: 0em;*/
+/*    text-align: center;*/
+/*}*/
 
-.menu-item {
-    display: inline-block;
-    padding: 1em 2em;
-}
+/*.menu-item {*/
+/*    display: inline-block;*/
+/*    padding: 1em 2em;*/
+/*}*/
 
-.menu-item a {
-    text-decoration: none;
-    color: #A7ACB3;
-    font-weight: bold;
-}
+/*.menu-item a {*/
+/*    text-decoration: none;*/
+/*    color: #A7ACB3;*/
+/*    font-weight: bold;*/
+/*}*/
