@@ -1,18 +1,44 @@
 package com.dd.website.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class HomeController {
 
-    private static final String HOME_VIEW = "root";
+    /*
+     * Names for our views
+     */
+    private static final String HOME_VIEW = "home-view";
+    private static final String FLOORS_VIEW = "floors-view";
+    private static final String CONTACT_VIEW = "contact-view";
+    private static final String ESTIMATE_VIEW = "estimate-view";
+    private static final String CARPET_UPHOLESTERY_VIEW = "carpet_upholestery-view";
+
+
     @GetMapping("/")
-    public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
+    public String home() {
         return HOME_VIEW;
+    }
+
+    @GetMapping("/floors")
+    public String about() {
+        return FLOORS_VIEW;
+    }
+
+    @GetMapping("/contact")
+    public String contactUs() {
+        return CONTACT_VIEW;
+    }
+
+    @GetMapping("/carpetup")
+    public String carpet() {
+        return CARPET_UPHOLESTERY_VIEW;
+    }
+
+    @GetMapping("/estimate")
+    public String test() {
+        return ESTIMATE_VIEW;
     }
 
 
